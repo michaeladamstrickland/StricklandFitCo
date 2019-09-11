@@ -4,7 +4,7 @@ import {
   Link
 } from "react-router-dom";
 
-import Logo from './logo.png'
+// import Logo from './logo.png'
 import "./Header.css"
 
 class Header extends Component {
@@ -25,7 +25,7 @@ class Header extends Component {
         <nav className="navbar">
           <div className="navbar--main">
             <Link to="/">
-              <img src={Logo} alt="logo" />
+              {/* <img src={Logo} alt="logo" /> */}
             </Link>
 
             <button className="button button--show-more" name="button" onClick={this.showMore}>
