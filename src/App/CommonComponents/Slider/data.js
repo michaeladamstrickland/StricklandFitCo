@@ -18,7 +18,7 @@ export const  data = [
 		text:
 		'It never gets easier. You just get strong.',
 		button: 'Discover',
-		image: '/images/bodybuilding2.jpg',
+		image: '/images/bodybuilding2.JPG',
 		isCenter: false
 	},
 	{
