@@ -6,7 +6,7 @@ export const  data = [
 		},
 		text:
 		'Fitness is not a destination it is a way of life.',
-		button: 'Read More',
+		button: 'See More',
 		image: '/images/bodybuilding1.jpg',
 		isCenter: false
 	},

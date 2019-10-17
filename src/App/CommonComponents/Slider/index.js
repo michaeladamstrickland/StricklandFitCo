@@ -31,10 +31,12 @@ const Slider = () => (
 							<p className="slideText">{item.text}</p>
 						</div>
 						<div>
+						<i class="arrow alternate circle down icon"></i>
 							<button className="slideButton">{item.button}</button>
 						</div>
 					</div>
 				</div>
+				
 			</div>
 		))}
 	</AnimatedSlider>
