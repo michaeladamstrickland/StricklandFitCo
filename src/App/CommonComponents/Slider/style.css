@@ -166,7 +166,13 @@ polygon {
         height: 75vh;
     }
     html{
-        width: auto;
+        width: 100%;
+    }
+    body{
+        width: 100%
+    }
+    .navbar{
+        width: 50px;
     }
 }
 

@@ -52,10 +52,10 @@ body {
 
 @media only screen and (max-width: 650px) {
  nav.navbar{
-   width: 100% auto;
+   width: auto;
  }
   body{ 
-   width: 100%;
+   width: 600px;
 
  }
 }
