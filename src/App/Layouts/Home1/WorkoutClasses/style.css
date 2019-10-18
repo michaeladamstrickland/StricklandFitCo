@@ -6,7 +6,7 @@
 .workout-classes__header {
   margin: 0 auto;
   display: flex;
-  width: 80%;
+  width: 80% auto;
   justify-content: space-between;
   
 
@@ -116,8 +116,8 @@
 }
 @media only screen and (max-width: 650px) {
   .workout-classes__header{
-    float: left;
-    width: 20%;
+    text-align: center;
+    width: 20% auto;
     font-size: 22px;
   }
 }

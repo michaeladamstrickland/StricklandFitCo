@@ -168,11 +168,8 @@ polygon {
     html{
         width: 100%;
     }
-    body{
-        width: 100%
-    }
     .navbar{
-        width: 50px;
+        width: auto;
     }
 }
 
