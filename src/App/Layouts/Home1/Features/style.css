@@ -128,7 +128,7 @@
 }
 
 
-@media only screen and (max-width: 940px) {
+@media only screen and (max-width: 650px) {
   .home1__features__container {
     position: static;
     transform: none;

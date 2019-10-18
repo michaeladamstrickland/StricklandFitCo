@@ -114,3 +114,10 @@
   width: 60%;
 }
 }
+@media only screen and (max-width: 650px) {
+  .workout-classes__header{
+    float: left;
+    width: 20%;
+    font-size: 22px;
+  }
+}

@@ -172,3 +172,19 @@
     grid-template-columns: 1fr 1fr;
   }
 }
+@media only screen and (max-width: 650px) {
+  .tabs__buttons {
+    grid-template-columns: repeat(auto-fill, minmax(51%, 33%));
+  }
+
+  .home1__offers .tab__buttons {
+    justify-self: start;
+  }
+
+  .home1__offers .tabs__buttons {
+    width: 50%;
+    margin: 0 auto;
+    justify-content: center;
+    grid-template-columns: 1fr 1fr;
+  }
+}
