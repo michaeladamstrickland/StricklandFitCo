@@ -6,8 +6,14 @@
   /* transition: all 1s ease-out; */
 }
 
+.navbar-brand {
+  display: flex;
+  margin-left: 5px;
+  padding: 0;
+
+}
 body {
- 
+  margin-top: 100px;
   font-family: 'Roboto', sans-serif;
   background-color: gray
 }
@@ -55,6 +61,7 @@ body {
    width: auto;
  }
   body{ 
+ 
    width: auto;
 
  }

@@ -6,7 +6,7 @@ import {
 import ShoppingCart from '../ShoppingCart/ShoppingCart';
 
 // import Logo from './logo.png'
-import "./Header.css"
+import "./Header.css";
 
 class Header extends Component {
   state = {
@@ -18,7 +18,7 @@ class Header extends Component {
     this.setState((state) => {
       return { isExpanded: !state.isExpanded };
     });
-  }
+  };
 
   render() {
     return (
@@ -63,6 +63,36 @@ class Header extends Component {
                   <NavLink activeClassName="active-navbar-link"className="nav-main-link" to='/404'>404</NavLink> */}
                 </div>
               </li>
+
+{/* ***********start of new div********************** */}
+              <li className="nav-item navbar__ul_li">
+                <NavLink activeClassName="active-navbar-link main" className="nav-main-link" to="/products">Products</NavLink>
+                <div className="nav-dropdown-menu">
+                  {/* <NavLink activeClassName="active-navbar-link"className="nav-main-link" to='/pricing-plan'>pricing Plan</NavLink>
+                  <NavLink activeClassName="active-navbar-link"className="nav-main-link" to='/contact'>Contact</NavLink>
+                  <NavLink activeClassName="active-navbar-link"className="nav-main-link" to='/contact-2'>Contact 2</NavLink>
+                  <NavLink activeClassName="active-navbar-link"className="nav-main-link" to='/404'>404</NavLink> */}
+                </div>
+              </li>
+              <li className="nav-item navbar__ul_li">
+                <NavLink activeClassName="active-navbar-link main" className="nav-main-link" to="/cart">Cart</NavLink>
+                <div className="nav-dropdown-menu">
+                  {/* <NavLink activeClassName="active-navbar-link"className="nav-main-link" to='/pricing-plan'>pricing Plan</NavLink>
+                  <NavLink activeClassName="active-navbar-link"className="nav-main-link" to='/contact'>Contact</NavLink>
+                  <NavLink activeClassName="active-navbar-link"className="nav-main-link" to='/contact-2'>Contact 2</NavLink>
+                  <NavLink activeClassName="active-navbar-link"className="nav-main-link" to='/404'>404</NavLink> */}
+                </div>
+              </li>
+              <li className="nav-item navbar__ul_li">
+                <NavLink activeClassName="active-navbar-link main" className="nav-main-link" to="/checkout">Checkout</NavLink>
+                <div className="nav-dropdown-menu">
+                  {/* <NavLink activeClassName="active-navbar-link"className="nav-main-link" to='/pricing-plan'>pricing Plan</NavLink>
+                  <NavLink activeClassName="active-navbar-link"className="nav-main-link" to='/contact'>Contact</NavLink>
+                  <NavLink activeClassName="active-navbar-link"className="nav-main-link" to='/contact-2'>Contact 2</NavLink>
+                  <NavLink activeClassName="active-navbar-link"className="nav-main-link" to='/404'>404</NavLink> */}
+                </div>
+              </li>
+              {/* ***********end start of new div********************** */}
 
               {/* <li className="nav-item navbar__ul_li">
                 <NavLink activeClassName="active-navbar-link main" className="nav-main-link"  to="/classes">Classes</NavLink>

@@ -1,5 +1,7 @@
 .slider {
-    
+    display: flex;
+    justify-content: left;
+    align-items: left;
     height: 100vh;
 }
 
@@ -41,7 +43,7 @@ polygon {
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    margin-right: -25%;
+    margin-right: -5%;
     user-select: none;
 }
 
@@ -87,6 +89,7 @@ polygon {
     width: 110px;
     height: 50px;
     border-radius: 10px;
+    margin-left: -400px;
     font-size: 18px;
     margin-top: 25px;
     transition-delay: 0s !important;
