@@ -1,0 +1,6 @@
+.shoppingCartBody {
+    display: flex;
+    padding: 50px;
+    margin: 50px;
+    align-items: center;
+}
