@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { getCartProducts } from '../repository';
+import { getCartProducts } from '../../repository';
 import CartItem from './CartItem';
 
 export default class Cart extends React.Component {

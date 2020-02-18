@@ -1,5 +1,5 @@
 import React from 'react';
-import { isAuthenticated, getCartProducts, pay } from '../repository';
+import { isAuthenticated, getCartProducts, pay } from '../../repository';
 import {  Redirect, Link } from 'react-router-dom';
 
 export default class Checkout extends React.Component {

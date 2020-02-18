@@ -1,5 +1,5 @@
 import React from 'react';
-import { login } from '../repository';
+import { login } from '../../repository';
 
 export default class Login extends React.Component{
   constructor() {

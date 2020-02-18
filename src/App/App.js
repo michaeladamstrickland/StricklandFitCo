@@ -1,11 +1,11 @@
 /* eslint-disable indent */
 import React, { Component } from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import Login from "../components/Login";
-import Products from "../components/ProductList";
-import Cart from "../components/Cart";
-import Checkout from "../components/Checkout";
-import { isAuthenticated } from "../repository";
+import Login from "./components/Login";
+import Products from "./components/ProductList";
+import Cart from "./components/Cart";
+import Checkout from "./components/Checkout";
+import { isAuthenticated } from '../repository';
 
 import ShoppingCart from "./CommonComponents/ShoppingCart/ShoppingCart";
 
