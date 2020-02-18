@@ -30,7 +30,7 @@ export const  data = [
 		'Push harder than yesterday if you want a different tomorrow.',
 		button: 'Book now',
 		image: 'http://sitetemplate.demo.ithemeslab.com/befit/male/assets/images/slider-show/s-5.jpg',
-		isCenter: true
+		isCenter: false
 
 	}
 ];

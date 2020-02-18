@@ -3,10 +3,10 @@ import ShoppingCart from '../ShoppingCart/ShoppingCart'
 
 function Pages(){
     return(
-        <>
-        <h1>hello</h1>
-        <h2>mother fucker</h2>
-        </>
+        <div className="container" style={{ marginTop: "100px",marginBottom: "10px"}}>
+        <h1>hello from pages</h1>
+        
+        </div>
     )
 }
 
