@@ -13,7 +13,7 @@ const Offers = () => (
     </div>
     <div className="home1__offers__container">
       <h2 className="home1__offers__title">MUSCLE BUILDING</h2>
-      <h3 className="home1__offers__description">12-Week Bulking Trainer Expert Brandon Poe</h3>
+      <h3 className="home1__offers__description">12-Week Bulking Trainer Expert Michael Strickland</h3>
       <Options data={data} />
       <button className="home1__offers__signup">
         Sign Up
